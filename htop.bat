@@ -1,0 +1,1 @@
+wt -p "Windows PowerShell" ssh sushi1 -t htop; split-pane -V -p "Windows PowerShell" ssh sushi2 -t htop; move-focus left; split-pane -H -p "Windows PowerShell" ssh sushi3 -t htop; move-focus right; split-pane -H -p "Windows PowerShell" ssh sushi4 -t htop

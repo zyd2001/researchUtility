@@ -1,1 +1,1 @@
-cmd.exe /c C:/Users/zyd20/.ssh/htop.bat
+powershell.exe -Command ./htop.bat
